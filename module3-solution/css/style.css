@@ -1,0 +1,64 @@
+body{
+    font-size: 16px;
+    color:black;
+    background-color: #fff;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* Header */
+#header-nav{
+    background-color: grey;
+    border-radius: 0;
+    border: 1px solid black;
+    border-top: 0;
+}
+
+.navbar-brand{
+    padding: 10px;
+}
+
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  #nav-list{
+    background: white;
+    margin: 0 -15px;
+  }
+
+  #collapsable-nav a {
+    text-align: center;
+    padding:0px 10px;
+  }
+  #collapsable-nav hr{
+    width: 100%;
+    border:0;
+    margin:0;
+    border-top: 1px solid black;
+  }
+
+  .navbar-default .navbar-toggle{
+    border-color: #222;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #222;
+}
+
+/* End Header */
+
+/* Home Page */
+section{
+    background-color: grey;
+    padding: 15px;
+}
