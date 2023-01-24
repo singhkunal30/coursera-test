@@ -6,6 +6,9 @@ body{
 }
 
 /* Header */
+#header-container{
+  margin: 0;
+}
 #header-nav{
     background-color: grey;
     border-radius: 0;
